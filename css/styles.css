@@ -3886,7 +3886,6 @@ td:last-child {
  * -------------------------------------------------------------------- */
 .s-about__blocks {
     margin-top: var(--vspace-3);
-    text-align: center;
 }
 
 .s-about__blocks .s-about__block-title {
@@ -3894,7 +3893,6 @@ td:last-child {
     margin-bottom: var(--vspace-1);
     padding-left : 1.45rem;
     position     : relative;
-    display: inline-block;
 }
 
 .s-about__blocks .s-about__block-title::before {
