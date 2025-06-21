@@ -3118,6 +3118,9 @@ td:last-child {
     padding: 0;
     outline: 0;
     border : none;
+    color: var(--color-gray-14);
+    padding: 0 1.2rem;
+    transition-property: color, background-color;
 }
 
 .s-header__logo img {
@@ -3883,6 +3886,7 @@ td:last-child {
  * -------------------------------------------------------------------- */
 .s-about__blocks {
     margin-top: var(--vspace-3);
+    text-align: center;
 }
 
 .s-about__blocks .s-about__block-title {
@@ -3890,6 +3894,7 @@ td:last-child {
     margin-bottom: var(--vspace-1);
     padding-left : 1.45rem;
     position     : relative;
+    display: inline-block;
 }
 
 .s-about__blocks .s-about__block-title::before {
@@ -4294,6 +4299,7 @@ td:last-child {
 .ss-copyright {
     margin     : 0 var(--vspace-2) 0 0;
     line-height: var(--vspace-0_875);
+    text-align: right;
 }
 
 .ss-copyright a {
@@ -4318,6 +4324,10 @@ td:last-child {
 
 .ss-copyright span:last-child::after {
     display: none;
+}
+
+.row.counter-items {
+    text-align: center;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4367,6 +4377,19 @@ td:last-child {
 
 .ss-go-top svg path {
     fill: white;
+}
+
+#logo-image {
+    font-weight: 600;
+    font-size: 25px;
+        display: block;
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: var(--vspace-1);
+    color: white;
+    padding: 0 1.2rem;
+    font-size: 25px;
 }
 
 /* ------------------------------------------------------------------- 
